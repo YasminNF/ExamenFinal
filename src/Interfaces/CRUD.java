@@ -2,12 +2,20 @@ package Interfaces;
 
 import java.util.List;
 import Modelo.producto;
+import Modelo.proveedor;
 
 public interface CRUD {
   
-    public List listarestudiante();
-    public producto buscarestudiante(int idestudiante);
-    public boolean agregarestudiante(producto estudiante);
-    public boolean editarestudiante(producto estudiante);
-    public boolean eliminarestudiante(int idestudiante);
+    public List listarproveedor();
+    public proveedor buscarproveedor(int idproveedor);
+    public boolean agregarproveedor(proveedor proveedor);
+    public boolean editarproveedor(proveedor proveedor);
+    public boolean eliminarproveedor(int idproveedor);
+    
+   public List listarproducto();
+    public producto buscarproducto(int idproducto);
+    public boolean agregarproducto(producto producto);
+    public boolean editarproducto(producto producto);
+    public boolean eliminarproducto(int idproducto);
 }
+
